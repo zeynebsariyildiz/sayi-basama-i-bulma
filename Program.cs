@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Remoting.Messaging;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,7 +12,9 @@ namespace sayi_basamaği_bulma
         static void Main(string[] args)
         {
             Console.Write("Bir Sayi Giriniz: ");
-            long sayi = Convert.ToInt32(Console.ReadLine());
+            long sayi = long.Parse (Console.ReadLine());
+
+
             long sayac = 0;
             while (sayi > 0)
             {
