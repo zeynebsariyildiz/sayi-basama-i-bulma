@@ -21,6 +21,8 @@ namespace sayi_basamaği_bulma
             Console.WriteLine("Girdiginiz Sayı " + sayac + " Basamaklıdır.");
 
             Console.ReadLine();
+
+            //çok büyük sayı girince hata veriyor örnek 368691368691
         }
     }
 }
