@@ -11,8 +11,8 @@ namespace sayi_basamaği_bulma
         static void Main(string[] args)
         {
             Console.Write("Bir Sayi Giriniz: ");
-            int sayi = Convert.ToInt32(Console.ReadLine());
-            int sayac = 0;
+            ulong sayi = Convert.ToInt32(Console.ReadLine());
+            ulong sayac = 0;
             while (sayi > 0)
             {
                 sayi /= 10;
